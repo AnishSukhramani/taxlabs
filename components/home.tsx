@@ -7,7 +7,7 @@ import { Globe } from "@/components/ui/globe";
 import { cn } from "@/lib/utils";
 
 export function Home() {
-  const words = ["broken", "old", "obsolete"];
+  const words = ["Deduction?", "Dividend Income?", "Savings Interest?", "Crypto Trade?", "Capital Gains?", "Foreign Asset?", "Penalty?", "Late Fee?", "Notice?", "Tax Credit?"];
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -55,11 +55,9 @@ export function Home() {
           <div className="absolute inset-0 z-20 flex items-center justify-start">
             <div className="w-1/2 h-full flex flex-col justify-center items-center px-4 gap-8">
               <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400 text-center">
-              The Indian 
-              {/* <br /> */}
-              Tax Portal is  
-                <FlipWords words={words} /> <br />
-                We Fixed It.
+              Are you 100% sure <br />
+              you didn't miss a   
+                <FlipWords words={words} /><br />
               </div>
               <div className="flex justify-center">
                 <NoiseBackground
@@ -99,9 +97,11 @@ export function Home() {
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
 
           {/* Placeholder content for second section */}
-          <div className="absolute inset-0 z-20 flex items-center justify-center">
-            <div className="text-4xl font-normal text-neutral-600 dark:text-neutral-400 text-center">
-              Next Section
+          <div className="absolute inset-0 z-20 flex items-center justify-end pr-8">
+            <div className="w-[70%] text-xl font-normal text-neutral-600 dark:text-neutral-400 text-center">
+              Our Tax Code is 260,000 Words spread over 5,000 pages <br/>
+              across multiple documents, with 536 Sections and 16 Schedules. <br/>
+              Before you understand anything, it will change in the next Budget.
             </div>
           </div>
         </section>
