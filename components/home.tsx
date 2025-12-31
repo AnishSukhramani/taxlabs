@@ -30,7 +30,7 @@ const GridItem = ({
           proximity={64}
           inactiveZone={0.01}
         />
-        <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+        <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 bg-[#e9e9e9] dark:bg-[#e9e9e9] dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
           <div className="relative flex flex-1 flex-col justify-between gap-3">
             <div className="w-fit rounded-lg border border-gray-600 p-2">
               {icon}
@@ -203,23 +203,23 @@ export function Home() {
                   <GridItem
                     area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
                     icon={<Box className="h-4 w-4 text-black dark:text-neutral-400" />}
-                    title="Do things the right way"
-                    description="Running out of copy so I'll write anything." />
+                    title="The Hidden Rules"
+                    description="Did you know you can't claim HRA if you live with your spouse who owns the house? Our AI knows." />
                   <GridItem
                     area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
                     icon={<Settings className="h-4 w-4 text-black dark:text-neutral-400" />}
-                    title="The best AI code editor ever."
-                    description="Yes, it's true. I'm not even kidding. Ask my mom if you don't believe me." />
+                    title="The AIS/TIS Trap"
+                    description="The government knows every UPI transaction. Our AI cross-checks your bank statement with your AIS instantly." />
                   <GridItem
                     area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
                     icon={<Lock className="h-4 w-4 text-black dark:text-neutral-400" />}
-                    title="You should buy Aceternity UI Pro"
-                    description="It's the best money you'll ever spend" />
+                    title="The Notice Nightmare"
+                    description="Received a Section 133(6) notice? Don't panic. Upload a photo of the notice, and our AI drafts the legal reply for you." />
                   <GridItem
                     area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
                     icon={<Sparkles className="h-4 w-4 text-black dark:text-neutral-400" />}
-                    title="This card is also built by Cursor"
-                    description="I'm not even kidding. Ask my mom if you don't believe me." />
+                    title="Save taxes like never before!"
+                    description="Our AI scans your swiggy/zomato history to see if you missed meal coupon exemptions (if applicable)." />
                   <GridItem
                     area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
                     icon={<Search className="h-4 w-4 text-black dark:text-neutral-400" />}
